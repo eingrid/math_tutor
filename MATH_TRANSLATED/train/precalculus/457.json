@@ -1,0 +1,6 @@
+{
+  "task": "Знайдіть матрицю $3 \\times 3$ $\\mathbf{M}$ таку, що \\[\\mathbf{M} \\mathbf{v} = -4 \\mathbf{v}\\] для всіх тривимірних векторів $\\mathbf{v}.$",
+  "solution": "Вибираючи $\\mathbf{v} = \\mathbf{i},$ ми отримуємо, що перший стовпець матриці $\\mathbf{M}$ дорівнює \\[\\mathbf{M} \\mathbf{i} = -4 \\mathbf{i} = \\begin{pmatrix} -4 \\\\ 0 \\\\ 0 \\end{pmatrix}.\\] Аналогічно, другий стовпець матриці $\\mathbf{M}$ дорівнює $-4 \\mathbf{j},$ а третій стовпець матриці $\\mathbf{M}$ дорівнює $-4 \\mathbf{k}.$ Отже, \\[\\mathbf{M} = \\boxed{\\begin{pmatrix} -4 & 0 & 0 \\\\ 0 & -4 & 0 \\\\ 0 & 0 & -4 \\end{pmatrix}}.\\]",
+  "answer": "-4",
+  "has_numerical_answer": true
+}

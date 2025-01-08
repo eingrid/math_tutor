@@ -1,0 +1,6 @@
+{
+  "task": "Нехай $x,$ $y,$ і $z$ - три позитивні числа, які задовольняють рівнянням $xyz = 1,$ $x + \\frac {1}{z} = 5,$ і $y + \\frac {1}{x} = 29.$ Знайдіть $z + \\frac {1}{y}.$",
+  "solution": "Нехай $t = z + \\frac{1}{y}.$ Зверніть увагу, що \\[\\left(x+\\frac{1}{z}\\right)\\left(y+\\frac{1}{x}\\right)\\left(z+\\frac{1}{y}\\right) = xyz + x+y+z + \\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z} + \\frac{1}{xyz}.\\] Підставляючи відомі значення, ми маємо \\[5 \\cdot 29 \\cdot t = 1 + (5 + 29 + t) + 1,\\] або $145t = 36 + t.$ Отже, $t = \\frac{36}{144} = \\boxed{\\frac{1}{4}}\\,.$",
+  "answer": "0.25",
+  "has_numerical_answer": true
+}

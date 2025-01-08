@@ -1,0 +1,6 @@
+{
+  "task": "Трикутник $ABC$ подібний до трикутника $XYZ$, де сторона $AB$ дорівнює 4 одиниці, сторона $BC$ дорівнює 6 одиницям, а сторона $XY$ дорівнює 14 одиницям. Яка довжина сторони $YZ$?",
+  "solution": "Оскільки трикутник $ABC$ подібний до трикутника $XYZ,$ $\\frac{AB}{XY}=\\frac{BC}{YZ}.$ Підставляючи відомі значення, отримуємо \\begin{align*} \\frac{4}{14} &= \\frac{6}{YZ} \\\\ \\Rightarrow\\qquad \\frac{4\\cdot YZ}{14} &= 6 \\\\ \\Rightarrow\\qquad 4\\cdot YZ &= 84 \\\\ \\Rightarrow\\qquad YZ &= \\boxed{21}. \\end{align*}",
+  "answer": "21",
+  "has_numerical_answer": true
+}

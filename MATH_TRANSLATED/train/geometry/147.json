@@ -1,0 +1,6 @@
+{
+  "task": "Нехай $AB$ буде діаметром кола, центр якого в точці $O$. Нехай $E$ буде точкою на колі, а дотична в точці $B$ перетинає дотичну в точці $E$ та $AE$ в точках $C$ та $D$ відповідно. Якщо $\\angle BAE = 43^\\circ$, знайдіть $\\angle CED$, у градусах.",
+  "solution": "Обидва кути $\\angle BAD$ та $\\angle CBE$ охоплюють дугу $BE$, тому $\\angle CBE = \\angle BAE = 43^\\circ$. Трикутник $BCE$ є рівнобедреним, оскільки $BC = CE$, оскільки це дотичні з однієї точки до одного кола, тому $\\angle CEB = \\angle CBE = 43^\\circ$.\\n\\nНарешті, $\\angle AEB = 90^\\circ$, оскільки $AB$ є діаметром, тому $\\angle BED = 90^\\circ$. Отже, $\\angle CED = \\angle BED - \\angle BEC = 90^\\circ - 43^\\circ = \\boxed{47^\\circ}$.",
+  "answer": "47",
+  "has_numerical_answer": true
+}

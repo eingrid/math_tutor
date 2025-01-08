@@ -1,0 +1,6 @@
+{
+  "task": "Дано $\\tan \\theta = 5,$ знайдіть \\[\\frac{1 - \\cos \\theta}{\\sin \\theta} - \\frac{\\sin \\theta}{1 + \\cos \\theta}.\\]",
+  "solution": "Маємо, що \\begin{align*} \\frac{1 - \\cos \\theta}{\\sin \\theta} - \\frac{\\sin \\theta}{1 + \\cos \\theta} &= \\frac{(1 - \\cos \\theta)(1 + \\cos \\theta) - \\sin^2 \\theta}{\\sin \\theta (1 + \\cos \\theta)} \\\\ &= \\frac{1 - \\cos^2 \\theta - \\sin^2 \\theta}{\\sin \\theta (1 + \\cos \\theta)} \\\\ &= \\boxed{0}. \\end{align*}",
+  "answer": "0",
+  "has_numerical_answer": true
+}

@@ -1,0 +1,6 @@
+{
+  "task": "Виразіть $0.\\overline{5}$ у вигляді звичайної дроби в найпростішій формі.",
+  "solution": "Нехай $x = 0.\\overline{5}$. Тоді маємо $$ 10x - x = 5.\\overline{5} - 0.\\overline{5} = 5 \\ \\ \\Rightarrow \\ \\ x = \\boxed{\\dfrac{5}{9}}. $$",
+  "answer": "5/9",
+  "has_numerical_answer": true
+}

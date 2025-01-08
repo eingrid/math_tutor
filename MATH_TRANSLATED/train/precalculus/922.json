@@ -1,0 +1,6 @@
+{
+  "task": "Вектори $\\mathbf{a} = \\begin{pmatrix} 3 \\\\ 1 \\\\ -2 \\end{pmatrix}$ та $\\mathbf{b} = \\begin{pmatrix} 0 \\\\ 2 \\\\ -1 \\end{pmatrix}.$ Існують скаляри $p,$ $q,$ та $r$ такі, що \\[\\begin{pmatrix} 4 \\\\ 1 \\\\ -4 \\end{pmatrix} = p \\mathbf{a} + q \\mathbf{b} + r (\\mathbf{a} \\times \\mathbf{b}).\\] Знайдіть $r.$",
+  "solution": "Ми можемо обчислити, що $\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix} 3 \\\\ 3 \\\\ 6 \\end{pmatrix}.$ З даного рівняння, \\[(\\mathbf{a} \\times \\mathbf{b}) \\cdot \\begin{pmatrix} 4 \\\\ 1 \\\\ -4 \\end{pmatrix} = p ((\\mathbf{a} \\times \\mathbf{b}) \\cdot  \\mathbf{a}) + q ((\\mathbf{a} \\times \\mathbf{b}) \\cdot \\mathbf{b}) + r ((\\mathbf{a} \\times \\mathbf{b}) \\cdot (\\mathbf{a} \\times \\mathbf{b})).\\] Оскільки $\\mathbf{a} \\times \\mathbf{b}$ ортогональний як до $\\mathbf{a}$, так і до $\\mathbf{b},$ $(\\mathbf{a} \\times \\mathbf{b}) \\cdot  \\mathbf{a} = (\\mathbf{a} \\times \\mathbf{b}) \\cdot  \\mathbf{b} = 0,$ тому це зводиться до \\[-9 = 54r.\\] Отже, $r = \\boxed{-\\frac{1}{6}}.$",
+  "answer": "-\\frac{1}{6}",
+  "has_numerical_answer": true
+}

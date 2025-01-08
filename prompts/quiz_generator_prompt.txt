@@ -1,0 +1,9 @@
+Generate quiz for a math problem.
+Here is the problem domain {topic}.
+Think step by step, firstly generate problem, then solve it in details. 
+
+
+Format instructions:
+{format_instructions}
+
+

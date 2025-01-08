@@ -1,0 +1,6 @@
+{
+  "task": "Обчисліть $\\tan \\left (\\operatorname{arccot} \\frac{4}{7} \\right).$",
+  "solution": "Розглянемо прямокутний трикутник, де прилегла сторона дорівнює 4, а протилежна сторона дорівнює 7.\n\n[asy]\nunitsize (0.5 cm);\n\ndraw((0,0)--(4,0)--(4,7)--cycle);\n\nlabel(\"$4$\", (2,0), S);\nlabel(\"$7$\", (4,7/2), E);\nlabel(\"$\\theta$\", (0.8,0.5));\n[/asy]\n\nТоді $\\cot \\theta = \\frac{4}{7},$ отже, $\\theta = \\operatorname{arccot} \\frac{4}{7}.$ Таким чином, $\\tan \\theta = \\frac{1}{\\cot \\theta} = \\boxed{\\frac{7}{4}}.$",
+  "answer": "1.75",
+  "has_numerical_answer": true
+}

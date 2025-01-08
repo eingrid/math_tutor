@@ -1,0 +1,6 @@
+{
+  "task": "Знайдіть $\\cot 45^\\circ.$",
+  "solution": "Маємо, що $\\cot 45^\\circ = \\frac{1}{\\tan 45^\\circ} = \\boxed{1}.$",
+  "answer": "1",
+  "has_numerical_answer": true
+}

@@ -1,0 +1,6 @@
+{
+  "task": "Якщо $\\tan \\theta = 7,$ знайдіть $\\tan 2 \\theta.$",
+  "solution": "З формули подвоєння кута,\\[\\tan 2 \\theta = \\frac{2 \\tan \\theta}{1 - \\tan^2 \\theta} = \\boxed{-\\frac{7}{24}}.\\]",
+  "answer": "-\\frac{7}{14}",
+  "has_numerical_answer": true
+}

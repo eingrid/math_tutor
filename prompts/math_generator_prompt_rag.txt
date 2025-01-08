@@ -1,0 +1,13 @@
+{problem_description}
+Here is the problem domain {topic}.
+Think step by step, firstly generate problem, then solve it in details. 
+Theoretical questions are prohibited.
+Generated task, solution should be in ukrainian language.
+
+
+Format instructions:
+{format_instructions}
+
+
+Here are similar in style tasks:
+{similar_tasks}

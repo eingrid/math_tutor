@@ -1,0 +1,6 @@
+{
+  "task": "У трикутнику $\\Delta ABC$, $\\overline{DE} \\parallel \\overline{AB}$, $CD = 4$ см, $DA = 10$ см, а $CE = 6$ см. Яка довжина відрізка $\\overline{CB}$ в сантиметрах?",
+  "solution": "Оскільки $DE \\parallel AB$, ми знаємо, що $\\angle CDE = \\angle CAB$ і $\\angle CED = \\angle CBA.$ Тому, за подібністю AA, маємо $\\triangle ABC \\sim DEC.$ Тоді знаходимо: \\begin{align*} \\frac{CB}{CE} &= \\frac{CA}{CD} = \\frac{CD + DA}{CD} \\\\ \\frac{CB}{6\\text{ см}} &= \\frac{4\\text{ см} + 10\\text{ см}}{4\\text{ см}} = \\frac{7}{2} \\\\ CB &= 6\\text{ см} \\cdot \\frac{7}{2} = \\boxed{21}\\text{ см}. \\end{align*}",
+  "answer": "21",
+  "has_numerical_answer": true
+}

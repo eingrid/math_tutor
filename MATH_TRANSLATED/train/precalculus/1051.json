@@ -1,0 +1,6 @@
+{
+  "task": "У трикутнику $ABC$, $\\cos(2A-B)+\\sin(A+B)=2$ та $AB=4$. Яка довжина $BC$?",
+  "solution": "Єдиний спосіб, яким сума косинуса та синуса може дорівнювати 2, це якщо кожен з них дорівнює 1, тому\n\\[\\cos (2A - B) = \\sin (A + B) = 1.\\]Оскільки $A + B = 180^\\circ,$ $0 < A + B < 180^\\circ.$ Тоді ми повинні мати\n\\[A + B = 90^\\circ.\\]Це означає, що $A < 90^\\circ$ та $B < 90^\\circ,$ тому $2A - B < 180^\\circ$ та $2A - B > -90^\\circ.$ Отже,\n\\[2A - B = 0^\\circ.\\]Розв'язуючи рівняння $A + B = 90^\\circ$ та $2A = B,$ ми знаходимо $A = 30^\\circ$ та $B = 60^\\circ.$\n\n[asy]\nunitsize(1 cm);\n\npair A, B, C;\n\nA = 4*dir(60);\nB = (0,0);\nC = (2,0);\n\ndraw(A--B--C--cycle);\ndraw(rightanglemark(A,C,B,10));\n\nlabel(\"$A$\", A, N);\nlabel(\"$B$\", B, SW);\nlabel(\"$C$\", C, SE);\nlabel(\"$4$\", (A + B)/2, NW);\n[/asy]\n\nОтже, трикутник $ABC$ є трикутником $30^\\circ$-$60^\\circ$-$90^\\circ$, тому $BC = \\frac{AB}{2} = \\boxed{2}.$",
+  "answer": "2",
+  "has_numerical_answer": true
+}

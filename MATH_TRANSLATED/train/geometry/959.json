@@ -1,0 +1,6 @@
+{
+  "task": "На малюнку $PA$ дотична до півкола $SAR$, $PB$ дотична до півкола $RBT$, а $SRT$ - пряма. Якщо дуга $AS$ дорівнює $58^\\circ$, а дуга $BT$ дорівнює $37^\\circ$, знайдіть $\\angle APB$, у градусах.",
+  "solution": "Нехай $O_1$ - центр півкола $SAR$, а $O_2$ - центр півкола $RBT$.\\\nОскільки $\\angle AO_1 S = 58^\\circ$, то $\\angle AO_1 R = 180^\\circ - 58^\\circ = 122^\\circ$. Оскільки $\\angle BO_2 T = 37^\\circ$, то $\\angle BO_2 R = 180^\\circ - 37^\\circ = 143^\\circ$.\\\nКути пентагону $AO_1 O_2 BP$ в сумі дорівнюють $540^\\circ$, тому\\\n\\begin{align*}\n\\angle APB &= 540^\\circ - \\angle PAO_1 - \\angle AO_1 R - \\angle BO_2 R - \\angle PBO_2 \\\\\n&= 540^\\circ - 90^\\circ - 122^\\circ - 143^\\circ - 90^\\circ \\\\\n&= \\boxed{95^\\circ}.\n\\end{align*}",
+  "answer": "95",
+  "has_numerical_answer": true
+}

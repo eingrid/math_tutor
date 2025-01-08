@@ -1,0 +1,6 @@
+{
+  "task": "Коло з центром $C$ показано. Висловіть площу кола в термінах $\\pi$. [asy] size(200); import graph; import markers; defaultpen(linewidth(0.7)); xaxis(\"$x$\",-5,11,Arrows); yaxis(\"$y$\",-7,7,Arrows); draw(Circle((3,1),5)); dot(Label(\"$C(3,1)$\",align=N),(3,1)); dot(Label(\"$(8,1)$\",align=N),(8,1)); [/asy]",
+  "solution": "Ми бачимо, що радіус кола дорівнює $8-3=5$, тому площа дорівнює $\\pi r^2=\\boxed{25\\pi}$.",
+  "answer": "13",
+  "has_numerical_answer": true
+}
